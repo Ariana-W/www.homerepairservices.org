@@ -1,0 +1,15 @@
+
+{% extends "_layout" %}
+
+{% block content %}
+
+  <div class="qualification-calculator">
+    <div class="input-group">
+      <input type="checkbox" data-bind="checked: qualify.homeOwner" />
+      <label>I own my home</label>
+    </div>
+    <div class="indicator" data-bind="visible: qualify.yes" style="display:none">
+      <i class="fa fa-check-circle"></i>
+  </div>
+
+{% endblock %}

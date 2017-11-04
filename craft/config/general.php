@@ -12,8 +12,8 @@ return array(
     '*' => array(
         // Base site URL
         'siteUrl' => array(
-            'en_us' => 'http://localhost:8888/',
-            'es_us' => 'http://localhost:8888/es/'
+            'en_us' => 'http://dev.capturelife.com/',
+            'es_us' => 'http://dev.capturelife.com/es/'
         ),
 
         // Environment-specific variables (see https://craftcms.com/docs/multi-environment-configs#environment-specific-variables)
